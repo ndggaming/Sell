@@ -11,12 +11,12 @@ commands:
     permission: sell.command
 permissions:
   sell:
-    default: op
+    default: true
     children:
       sell.hand:
-        default: op
+        default: true
       sell.all:
-        default: op
+        default: true
       sell.command:
         default: true
 ...
